@@ -51,6 +51,15 @@ Es muy común que los patrones de diseño tengan distintos nombres. Esto ocurre 
 |Método plantilla|Template Method|Plantilla / Esqueleto|  
 |Visitante|Visitor|Visitor Pattern|  
 ___
+### Ejercicio 5:  
+*¿Qué son los antipatrones de diseño? Ejemplifique algunos casos.*  
+Los antopatrones de diseño son soluciones que, aunque parecen buenas ideas, terminan generando consecuencias negativas. Es decir que son patrones de diseño que al estar mal aplicados generan código inmantenible, rigidez o falla de rendimiento.  
+Algunos de los casos más importantes son:  
+* The God Object: ocurre cuando una sola clase del sistema acumula la inmensa mayoría de las responsabilidades, variables y funciones de aplicación, dejando el resto de las clases como simple contenedores de datos, violando, de esta forma, el Principio de resposabilidad única.  
+* Spaghetti Code: describe un sistema cuya estructura de flujo es tan enredada, compleja y carente de organización que se asemeja a un plato de fideos. Nace de la falta de modularización y del abuso de estructuras de control mal diseñadas.  
+* Boat Anchor: mantener dentro del sistema código, clases, librerías o funcionalidades enteras que ya no se utilizan, por si son necesarias en el futuro, actuando como un ancla para el código.  
+___ 
+
 
 
 
