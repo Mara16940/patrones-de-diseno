@@ -26,4 +26,32 @@ Cocinar todos los días no es una opción, quita tiempo de descanso y genera una
 **Recordar claves.**  
 La parte más dificil de las mil sesiones que iniciamos por día, para no olvidar las contraseñas se utiliza el patrón Factory, en lugar de memorizar veinte claves se memoriza una regla de producción. Al registrarse en un sitio nuevo se aplica la regla mental y se crea la nueva clave.  
 ___
+### Ejercicio 4:  
+*Los patrones de diseño suelen poseer distintos nombres o denominaciones. Busque y arme una tabla con los posibles distintos nombres usados.*  
+Es muy común que los patrones de diseño tengan distintos nombres. Esto ocurre por dos razones, la traducción del ingles al español y el hecho de que muchos patrones fueron descubiertos en paoralelo por diferentes autores.  
+
+|Nombre en Español|Nombre en Inglés|Alias/ otro nombre|  
+|-----------------|----------------|------------------|  
+|Método Fábrica o Fábrica Virtual|Factory Method|Virtual Constructor|  
+|Fábrica Abastracta| Abstract Factory| Kit|
+|Constructor|Builder|Director|  
+|Prototipo|Prototype|Clone|  
+|Único|Singleton|Solitario|  
+|Adaptador|Adapter|Wrapper|  
+|Puente|Bridge|Handle / Body|  
+|Objeto Compuesto|Composite|Árbol / Hierarchy|  
+|Decorador|Decorator|Wrapper|   
+|Fachada|Facade|Front-end| 
+|Comando|Command|Action / Transaction|  
+|Interprete|Interpreter|Evaluador de gramática|  
+|Iterador|Iterator|Cursor|  
+|Mediador|Mediator|Hub|  
+|Observador|Observer|Dependents|  
+|Estrategia|Strategy|Policy|  
+|Método plantilla|Template Method|Plantilla / Esqueleto|  
+|Visitante|Visitor|Visitor Pattern|  
+___
+
+
+
 
