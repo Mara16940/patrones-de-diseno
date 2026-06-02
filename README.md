@@ -59,6 +59,19 @@ Algunos de los casos más importantes son:
 * Spaghetti Code: describe un sistema cuya estructura de flujo es tan enredada, compleja y carente de organización que se asemeja a un plato de fideos. Nace de la falta de modularización y del abuso de estructuras de control mal diseñadas.  
 * Boat Anchor: mantener dentro del sistema código, clases, librerías o funcionalidades enteras que ya no se utilizan, por si son necesarias en el futuro, actuando como un ancla para el código.  
 ___ 
+### Ejercicio 6:  
+*Investigue el uso de otras buenas prácticas, como por ejemplo SOLID.*  
+El conjunto de directrices más famoso y fundamental en la programación orientada a objetos son los principios SOLID, acrónimo donde cada letra representa un principio de diseño limpio.  
+* S: Single Responsibility Principle. Una clase debería tener una única razón para cambiar. Significa que una clase debe tener una sola funcionalidad.  
+* O: Open/Closed Principle. Las entidades de software deben estar abiertad para su extensión, pero cerradas para su modificación. Busca que el código sea extensible sin necesidad de alterar el código que ya está escrito.
+* L: Liskov Substitution Principle. Las clases derivadas deben ser sustituidas por sus clases base sin alterar el comportamiento del programa. Si una clase hereda de otra debe cumpli con el contrato de la clase padre.
+* I: Interface Segregation Principle. Es mejor tener muchas interfaces pequeñas y específicas que una enorme y genérica.
+* D: Dependency Inversion Principle. Depende de las abtracciones no de las clases concretas.  
+
+Además de SOLID, existen otras filosofías y acrónimos esenciales:  
+* KISS: Keep it simple, stupyd. El código debe mantenerse lo más sencillo posible.
+* DRY: Don't repeat yourself. La duplicación de código dificulta el mantenimiento.  
+* YAGNI: You aren´t gonna need it. No escribir código basándose en lo que se podría necesitar en un futuro.
 
 
 
